@@ -13,6 +13,19 @@
     font-weight: 550;
     font-size: 20px;
 }
+.main-content button {
+  cursor: pointer;
+  color: whitesmoke;
+  background-color: black;
+  display: inline-block;
+  height: 1cm;
+  text-decoration: none;
+  border: none;
+  font-weight: bold;
+  margin-top: 2cm;
+  max-width:100%;
+
+}
 .pre{
     font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     margin-bottom: 10px;
@@ -58,13 +71,13 @@
 .main-content{
 border: none;
 display: inline-block;
-width:100%;
+
 max-width: 100%;
 margin-top: 0.4cm;
 margin-left: 5.5cm;
 }
 div.scrollmenu {
-background-color:#2b2d32;
+background-color:navy;
 overflow: auto;
 white-space: nowrap;
 text-align: right ;
@@ -89,7 +102,7 @@ position:sticky;
 
 div.scrollmenu a:hover {
 background-color: rgb(255, 255, 255);
-color: lightseagreen;
+color: navy;
 }
 .logo{
 height:60px;
@@ -100,6 +113,7 @@ position: absolute;
 margin-right: auto;
 left: 0;
 right: 0;
+
 border: none;
 background-color:white; 
 margin-top: -0.3cm;
@@ -171,7 +185,7 @@ position: fixed;
 z-index: 1;
 top: 0;
 left: 0;
-background-color:lightseagreen;
+background-color:navy;
 overflow-x: hidden;
 padding-top: 20px;
 margin-top: 1.3cm;
@@ -215,7 +229,7 @@ font-weight: bold;
 font-size:20px;
 margin-left: -1.1cm;
 margin-right: -1.1cm; 
-color: lightsalmon;
+color: salmon;
 background-color:white;
 font-weight:bold;  
 border-top: 0.23px solid #818181;
@@ -229,7 +243,7 @@ font-weight: bold;
 .collapsible {
   overflow-x: hidden;
   
-  background-color:lightseagreen;
+  background-color:navy;
   padding: 18px;
   width: 100%;
   border: none;
@@ -238,12 +252,12 @@ font-weight: bold;
   outline: none;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
-  color: black;
+  color: white;
   margin-left: 0.2cm;
   }
   
 .active, .collapsible:hover {
-color: black;
+color: navy;
 background-color: white;
 padding: 14px;
 text-decoration: none;
