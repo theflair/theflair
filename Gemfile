@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
-
+gem "github-pages", "~> VERSION", group: :jekyll_plugins
 #gem "jekyll", "~> 3.8.5"
 #gem "jekyll"
 # Hello! This is where you manage which Jekyll version is used to run.
