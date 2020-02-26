@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Creating a Simple python TelegramBot using Flask and deploying it in heroku. | The Flair</title>
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Creating a Simple python TelegramBot using Flask and deploying it in heroku. | The Flair</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Creating a Simple python TelegramBot using Flask and deploying it in heroku." />
+<meta name="author" content="puneeth" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Writing code for python telegram bot is easy. We add some extra things to integrate with telegram. Follow me you can build a bot easily.." />
+<meta property="og:description" content="Writing code for python telegram bot is easy. We add some extra things to integrate with telegram. Follow me you can build a bot easily.." />
+<link rel="canonical" href="http://localhost:4000/mundana-theme-jekyll/Simple-python-telegram-bot/" />
+<meta property="og:url" content="http://localhost:4000/mundana-theme-jekyll/Simple-python-telegram-bot/" />
+<meta property="og:site_name" content="The Flair" />
+<meta property="og:image" content="http://localhost:4000/mundana-theme-jekyll/assets/images/pytelebot/pythonbot-display.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-02-18T00:00:00+05:30" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/mundana-theme-jekyll/assets/images/clogo.png"},"name":"puneeth"},"url":"http://localhost:4000/mundana-theme-jekyll/Simple-python-telegram-bot/","headline":"Creating a Simple python TelegramBot using Flask and deploying it in heroku.","dateModified":"2020-02-18T00:00:00+05:30","datePublished":"2020-02-18T00:00:00+05:30","image":"http://localhost:4000/mundana-theme-jekyll/assets/images/pytelebot/pythonbot-display.png","author":{"@type":"Person","name":"puneeth"},"description":"Writing code for python telegram bot is easy. We add some extra things to integrate with telegram. Follow me you can build a bot easily..","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/mundana-theme-jekyll/Simple-python-telegram-bot/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/mundana-theme-jekyll/assets/images/favicon.png">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+
+    <!-- Bootstrap Modified ->
+    <link rel="stylesheet" href="/mundana-theme-jekyll/assets/css/main.css">
+
+    <!-- Theme Stylesheet ->
+    <link rel="stylesheet" href="/mundana-theme-jekyll/assets/css/theme.css">
+
+    <!--Custom Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="/mundana-theme-jekyll/assets/css/custom.css">
+
+    <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+    <!-- This goes before </head> closing tag, Google Analytics can be placed here --> 
+
+
+</head>
+
+<body class="">
+
+    <!-- Navbar -->
+    <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-flair fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="/mundana-theme-jekyll/index.html"><img src="https://theflair.tk/images/clogo.png" style="background-color: white;" width="250" height="55"></a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarColor02" style="">
+            <ul class="navbar-nav mr-auto d-flex align-items-center">
+               <!--  Replace menu links here -->
+
+<li class="nav-item">
+<a class="nav-link" href="/mundana-theme-jekyll/index.html">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/mundana-theme-jekyll/authors-list.html">Authors</a>
+</li>
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Alternatives of</a>
+    <ul class="dropdown-menu" aria-labelledby="dropdown">
+        <li class="dropdown-item " ><a class="dropdown-item-dropdown" href="/mundana-theme-jekyll/alternatives-of-google-play-store/ ">Google play store</a></li>
+        <!--li class="dropdown-item dropdown">
+            <a class="dropdown-toggle" id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown1.1</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown1-1">
+                <li class="dropdown-item" href="#"><a>Action 1.1</a></li>
+                <li class="dropdown-item dropdown">
+                    <a class="dropdown-toggle" id="dropdown1-1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown1.1.1</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown1-1-1">
+                        <li class="dropdown-item" href="#"><a>Action 1.1.1</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li-->
+    </ul>
+</li>
+<li class="nav-item dropdown ml-auto " style="">
+    <a class="nav-link dropdown-toggle" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+    <ul class="dropdown-menu" aria-labelledby="dropdown">
+        <li class="dropdown-item " ><a class="dropdown-item-dropdown" href="/mundana-theme-jekyll/about.html ">About Us</a></li>
+        <li class="dropdown-item " ><a class="dropdown-item-dropdown" href="/mundana-theme-jekyll/contact.html ">Contact Us</a></li>
+        <!--li class="dropdown-item dropdown">
+            <a class="dropdown-toggle" id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown1.1</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown1-1">
+                <li class="dropdown-item" href="#"><a>Action 1.1</a></li>
+                <li class="dropdown-item dropdown">
+                    <a class="dropdown-toggle" id="dropdown1-1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown1.1.1</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown1-1-1">
+                        <li class="dropdown-item" href="#"><a>Action 1.1.1</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li-->
+    </ul>
+</li>
+
+
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+    <!-- Search Results -->
+    <div id="lunrsearchresults">
+        <ul class="mb-0"></ul>
+    </div>
+<br><br><br>
+    <!-- Content -->
+    <main role="main" class="site-content">
+        
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row  justify-content-between ">
+				<div class=" col-md-6  pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+                        <span class="catlist">
+						
+                          <a class="sscroll text-danger" href="/mundana-theme-jekyll/categories.html#jekyll">jekyll</a><span class="sep">, </span>
+                        
+                          <a class="sscroll text-danger" href="/mundana-theme-jekyll/categories.html#tutorial">tutorial</a><span class="sep">, </span>
+                        
+                        </span>
+					</p>
+					<h1 class="display-4 mb-4 article-headline">Creating a Simple python TelegramBot using Flask and deploying it in heroku.</h1>
+					<div class="d-flex align-items-center">
+                        
+                        <img class="rounded-circle" src="/mundana-theme-jekyll//assets/images/puneeth.jpg" alt="Neerukonda Puneeth" width="70"/>
+                        
+						<small class="ml-3"> Neerukonda Puneeth <span><a target="_blank" href="https://twitter.com/puneeth_kanna" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+                            <span class="text-muted d-block mt-1">Feb 18, 2020 · <span class="reading-time">
+  
+  
+    6 mins read
+  
+</span>
+    </span>
+						</small>
+					</div>
+				</div>
+                
+				<div class="col-md-6 pr-0 align-self-center">
+					<img class="rounded" src="/mundana-theme-jekyll/assets/images/pytelebot/pythonbot-display.png" alt="Creating a Simple python TelegramBot using Flask and deploying it in heroku.">
+				</div>
+                
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">
+        
+        
+        <!-- Share -->
+		<div class="col-lg-2 pr-4 mb-4 col-md-12">
+			<div class="sticky-top sticky-top-offset text-center">
+				<div class="text-muted">
+					Share this
+				</div>
+				<div class="share d-inline-block">
+					<!-- AddToAny BEGIN -->
+					<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+						<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+						<a class="a2a_button_facebook"></a>
+						<a class="a2a_button_twitter"></a>
+					</div>
+					<script async src="https://static.addtoany.com/menu/page.js"></script>
+					<!--Facebook Share button ->
+					<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0"></script>
+					<!-- Twitter Share button ->
+					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script-->
+					<!-- AddToAny END -->
+				</div>
+			</div>
+		</div>
+        
+        
+		<div class="col-md-12 col-lg-8">
+            
+            <!-- Article -->
+			<article class="article-post">                
+			<p>Writing code for python telegram bot is easy. We add some extra things to integrate with telegram. Follow me you can build a bot easily..</p>
+
+<h2 id="requirements-for-pythontelegrambot-">Requirements for PythonTelegramBot :</h2>
+<p>Firstly, get your bot a token and a username.
+Search for “botfather” in telegram. Now follow the instructions in the BotFather..
+This is the link for the official BotFather <a href="https://t.me/BotFather">https://t.me/BotFather</a></p>
+<ul>
+  <li>Rember the username is unique, so if the username is taken, try another one.</li>
+  <li>Remember the API_TOKEN is confidential, secure it.</li>
+  <li>Else your bot can be controlled by others.</li>
+</ul>
+
+<p><img src="/mundana-theme-jekyll/assets/images/pytelebot/new_bot.jpg" alt="New Bot" />     <img src="/mundana-theme-jekyll/assets/images/pytelebot/bot_done.jpg" alt="New Bot Created" /></p>
+
+<h5 id="now-we-need-to-install-some-libraries-for-getting-started">Now we need to install some libraries for getting started</h5>
+<p><code class="highlighter-rouge">
+pip3 install telebot 
+pip3 install python-telegram-bot
+</code></p>
+<h3 id="our-first-program-">Our first program :</h3>
+<p>Here is the simple bot which echo’s what you sent to it.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="c1">#!/usr/bin/python
+</span>  <span class="c1"># This is a simple echo bot using the decorator mechanism.
+</span>  <span class="c1"># It echoes any incoming text messages.
+</span>  
+  <span class="kn">import</span> <span class="nn">telebot</span>
+            
+  <span class="n">API_TOKEN</span> <span class="o">=</span> <span class="s">'Your_API_Token_Here'</span>
+            
+  <span class="n">bot</span> <span class="o">=</span> <span class="n">telebot</span><span class="o">.</span><span class="n">TeleBot</span><span class="p">(</span><span class="n">API_TOKEN</span><span class="p">)</span>
+            
+            
+  <span class="c1"># Handle '/start' and '/help'
+</span>  <span class="o">@</span><span class="n">bot</span><span class="o">.</span><span class="n">message_handler</span><span class="p">(</span><span class="n">commands</span><span class="o">=</span><span class="p">[</span><span class="s">'help'</span><span class="p">,</span> <span class="s">'start'</span><span class="p">])</span>
+  <span class="k">def</span> <span class="nf">send_welcome</span><span class="p">(</span><span class="n">message</span><span class="p">):</span>
+  <span class="n">bot</span><span class="o">.</span><span class="n">reply_to</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="s">"</span><span class="se">\n</span><span class="s">Hi there, I am EchoBot.</span><span class="se">\n</span><span class="s">I am here to echo your words. </span><span class="err">
+</span><span class="s">  Just send anything  and I'll send the same thing to you!</span><span class="se">\n</span><span class="s">"</span><span class="p">)</span>
+            
+            
+  <span class="c1"># Handle all other messages with content_type 'text' (content_types defaults to ['text'])
+</span>  <span class="o">@</span><span class="n">bot</span><span class="o">.</span><span class="n">message_handler</span><span class="p">(</span><span class="n">func</span><span class="o">=</span><span class="k">lambda</span> <span class="n">message</span><span class="p">:</span> <span class="bp">True</span><span class="p">)</span>
+  <span class="k">def</span> <span class="nf">echo_message</span><span class="p">(</span><span class="n">message</span><span class="p">):</span>
+  <span class="n">bot</span><span class="o">.</span><span class="n">reply_to</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">message</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+                   
+  <span class="n">bot</span><span class="o">.</span><span class="n">polling</span><span class="p">()</span>
+</code></pre></div></div>
+<p>Now run the code by</p>
+
+<p><code class="highlighter-rouge">
+python3 file_name.py 
+</code></p>
+
+<p>This is a simple echo bot. What ever the message you send to it, it sends you the same message.</p>
+
+<ul>
+  <li>Below are some predefined commands for our bot, so with out typing the whole sentence we can just type the command for the output.
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="o">@</span><span class="n">bot</span><span class="o">.</span><span class="n">message_handler</span><span class="p">(</span><span class="n">commands</span><span class="o">=</span><span class="p">[</span><span class="s">'help'</span><span class="p">,</span> <span class="s">'start'</span><span class="p">])</span>
+</code></pre></div>    </div>
+    <p>Below this we should write the function that should be executed when the command is sent.</p>
+  </li>
+</ul>
+
+<p><strong>Till now we have written a simple program.</strong></p>
+
+<h3 id="deploying-pythontelegrambot-in-heroku">Deploying PythonTelegramBot in Heroku</h3>
+<p>For deploying our bot we will use <strong>Flask</strong>, because for contacting bot we use webhooks method.
+So, to install flask use,</p>
+
+<p><code class="highlighter-rouge">
+pip3 install flask 
+</code></p>
+
+<p>After installing we should change our code a little bit so as to work with flask.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="n">server</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
+  <span class="n">PORT</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">'PORT'</span><span class="p">,</span> <span class="s">'8443'</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p>Use the below code at the end of the application.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">@</span><span class="n">server</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s">'/'</span> <span class="o">+</span> <span class="n">API_TOKEN</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s">'POST'</span><span class="p">])</span>
+  <span class="k">def</span> <span class="nf">getMessage</span><span class="p">():</span>
+      <span class="n">bot</span><span class="o">.</span><span class="n">process_new_updates</span><span class="p">([</span><span class="n">telebot</span><span class="o">.</span><span class="n">types</span><span class="o">.</span><span class="n">Update</span><span class="o">.</span><span class="n">de_json</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">stream</span><span class="o">.</span><span class="n">read</span><span class="p">()</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s">"utf-8"</span><span class="p">))])</span>
+      <span class="k">return</span> <span class="s">"!"</span><span class="p">,</span> <span class="mi">200</span>
+  
+  
+  <span class="o">@</span><span class="n">server</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s">"/"</span><span class="p">)</span>
+  <span class="k">def</span> <span class="nf">webhook</span><span class="p">():</span>
+      <span class="n">bot</span><span class="o">.</span><span class="n">remove_webhook</span><span class="p">()</span>
+      <span class="n">bot</span><span class="o">.</span><span class="n">set_webhook</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="s">'Your_App_Name_Link_Here'</span> <span class="o">+</span> <span class="n">API_TOKEN</span><span class="p">)</span>
+      <span class="k">return</span> <span class="s">"!"</span><span class="p">,</span> <span class="mi">200</span>
+  
+  
+  <span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
+  <span class="n">server</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">host</span><span class="o">=</span><span class="s">"0.0.0.0"</span><span class="p">,</span> <span class="n">port</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">'PORT'</span><span class="p">,</span> <span class="mi">5000</span><span class="p">)))</span>
+</code></pre></div></div>
+<p>After this the final code looks like</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+  <span class="c1">#!/usr/bin/python
+</span>  <span class="c1"># This is a simple echo bot using the decorator mechanism.
+</span>  <span class="c1"># It echoes any incoming text messages.
+</span>  
+  <span class="kn">import</span> <span class="nn">telebot</span>
+  <span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Flask</span><span class="p">,</span> <span class="n">request</span>
+  <span class="kn">import</span> <span class="nn">os</span>
+  <span class="n">API_TOKEN</span> <span class="o">=</span> <span class="s">'Your_API_Token_Here'</span>
+            
+  <span class="n">bot</span> <span class="o">=</span> <span class="n">telebot</span><span class="o">.</span><span class="n">TeleBot</span><span class="p">(</span><span class="n">API_TOKEN</span><span class="p">)</span>
+  <span class="n">server</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
+  <span class="n">PORT</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">'PORT'</span><span class="p">,</span> <span class="s">'8443'</span><span class="p">))</span>          
+            
+  <span class="c1"># Handle '/start' and '/help'
+</span>  <span class="o">@</span><span class="n">bot</span><span class="o">.</span><span class="n">message_handler</span><span class="p">(</span><span class="n">commands</span><span class="o">=</span><span class="p">[</span><span class="s">'help'</span><span class="p">,</span> <span class="s">'start'</span><span class="p">])</span>
+  <span class="k">def</span> <span class="nf">send_welcome</span><span class="p">(</span><span class="n">message</span><span class="p">):</span>
+  <span class="n">bot</span><span class="o">.</span><span class="n">reply_to</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="s">"</span><span class="se">\n</span><span class="s">Hi there, I am EchoBot.</span><span class="se">\n</span><span class="s">I am here to echo your words. </span><span class="err">
+</span><span class="s">  Just send anything  and I'll send the same thing to you!</span><span class="se">\n</span><span class="s">"</span><span class="p">)</span>
+            
+            
+  <span class="c1"># Handle all other messages with content_type 'text' (content_types defaults to ['text'])
+</span>  <span class="o">@</span><span class="n">bot</span><span class="o">.</span><span class="n">message_handler</span><span class="p">(</span><span class="n">func</span><span class="o">=</span><span class="k">lambda</span> <span class="n">message</span><span class="p">:</span> <span class="bp">True</span><span class="p">)</span>
+  <span class="k">def</span> <span class="nf">echo_message</span><span class="p">(</span><span class="n">message</span><span class="p">):</span>
+  <span class="n">bot</span><span class="o">.</span><span class="n">reply_to</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">message</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+  
+  
+  <span class="o">@</span><span class="n">server</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s">'/'</span> <span class="o">+</span> <span class="n">API_TOKEN</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s">'POST'</span><span class="p">])</span>
+  <span class="k">def</span> <span class="nf">getMessage</span><span class="p">():</span>
+      <span class="n">bot</span><span class="o">.</span><span class="n">process_new_updates</span><span class="p">([</span><span class="n">telebot</span><span class="o">.</span><span class="n">types</span><span class="o">.</span><span class="n">Update</span><span class="o">.</span><span class="n">de_json</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">stream</span><span class="o">.</span><span class="n">read</span><span class="p">()</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s">"utf-8"</span><span class="p">))])</span>
+      <span class="k">return</span> <span class="s">"!"</span><span class="p">,</span> <span class="mi">200</span>
+  
+  
+  <span class="o">@</span><span class="n">server</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s">"/"</span><span class="p">)</span>
+  <span class="k">def</span> <span class="nf">webhook</span><span class="p">():</span>
+      <span class="n">bot</span><span class="o">.</span><span class="n">remove_webhook</span><span class="p">()</span>
+      <span class="n">bot</span><span class="o">.</span><span class="n">set_webhook</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="s">'Your_App_Name_Link_Here'</span> <span class="o">+</span> <span class="n">API_TOKEN</span><span class="p">)</span>
+      <span class="k">return</span> <span class="s">"!"</span><span class="p">,</span> <span class="mi">200</span>
+  
+  
+  <span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
+  <span class="n">server</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">host</span><span class="o">=</span><span class="s">"0.0.0.0"</span><span class="p">,</span> <span class="n">port</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">'PORT'</span><span class="p">,</span> <span class="mi">5000</span><span class="p">)))</span>    
+</code></pre></div></div>
+
+<p><strong>Now, we need the libraries that are used for this bot. So to get the librares use</strong></p>
+
+<p><code class="highlighter-rouge">
+pip3 freeze requirements.txt
+</code></p>
+
+<p><em>You can see the libraries in “requirements.txt”. Don’t remove the libraries that you don’t know as they</em> <em>are dependent libraries.</em>
+<em>Now we should create a “Procfile” and type this code in that file</em></p>
+
+<p><code class="highlighter-rouge">
+web: python3 file_name.py
+</code></p>
+
+<p><strong>Don’t change name of “requirements.txt” and “Procfile”(‘P’ is capital).</strong>
+Now, open github and create your repository, after that upload your file_name.py,requirements.txt and Procfile to github.
+Signup/Signin to heroku and Create a new app.
+<img src="/mundana-theme-jekyll/assets/images/pytelebot/hd_connect.png" alt="Connected to Heroku" />
+Now, go to the Deploy section and now connect to github, then after type your repository name and connect it.
+<img src="/mundana-theme-jekyll/assets/images/pytelebot/bot_deployed.png" alt="Bot deployed" /></p>
+
+<p>Every thing is done. You are set to go
+Now press come down and press deploy branch.
+After successfull deployment you can use your bot.
+<strong>You can get your app name from settings section in heroku.</strong></p>
+                
+			</article>
+			
+			<!-- Tags -->
+			<div class="mb-4">
+				<span class="taglist">
+				
+				  <a class="sscroll btn btn-light btn-sm font-weight-bold" href="/mundana-theme-jekyll/tags.html#python">python</a>
+				
+				  <a class="sscroll btn btn-light btn-sm font-weight-bold" href="/mundana-theme-jekyll/tags.html#bot">bot</a>
+				
+				  <a class="sscroll btn btn-light btn-sm font-weight-bold" href="/mundana-theme-jekyll/tags.html#telegram">telegram</a>
+				
+				  <a class="sscroll btn btn-light btn-sm font-weight-bold" href="/mundana-theme-jekyll/tags.html#flask">flask</a>
+				
+				  <a class="sscroll btn btn-light btn-sm font-weight-bold" href="/mundana-theme-jekyll/tags.html#heroku">heroku</a>
+				
+				</span>
+			</div>
+ 
+            <!-- Mailchimp Subscribe Form >
+            
+			<div class="border p-5 bg-lightblue">
+				<div class="row justify-content-between">
+					<div class="col-md-6 mb-2 mb-md-0">
+						<h5 class="font-weight-bold">Join Newsletter</h5>
+						 Get the latest news right in your inbox. We never spam!
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+                            <form action="https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate w-100" target="_blank" novalidate>
+                            <div class="mc-field-group">
+							
+								<input type="email" placeholder="Enter e-mail address" name="EMAIL" class="required email form-control w-100" id="mce-EMAIL" autocomplete="on" required>
+							
+							
+								<button type="submit" value="Subscribe" name="subscribe" class="heart btn btn-success btn-block w-100 mt-2">Subscribe</button>
+							
+                            </div>
+                            </form>
+						</div>
+					</div>
+				</div>
+			</div>
+            -->
+            
+            
+             <!-- Author Box -->
+                				
+				<div class="row mt-5">
+					<div class="col-md-2 align-self-center">
+                         
+                        <img class="rounded-circle" src="/mundana-theme-jekyll//assets/images/puneeth.jpg" alt="Neerukonda Puneeth" width="90"/>
+                         
+					</div>
+					<div class="col-md-10">		
+                        <h5 class="font-weight-bold">Written by Neerukonda Puneeth <span><a target="_blank" href="https://twitter.com/puneeth_kanna" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span></h5>
+						Blogger, fashionista, love to explore new ideas and write on my morning coffee!					
+					</div>
+				</div>				
+                
+            
+        
+		</div>
+        
+        
+	</div>
+</div>
+
+
+<!-- Aletbar Prev/Next >
+<div class="alertbar">
+    <div class="container">
+        <div class="row prevnextlinks small font-weight-bold">
+          
+            <div class="col-md-6 rightborder pl-0">
+                <a class="text-dark" href="/mundana-theme-jekyll/alternatives-of-google-play-store/"> <img height="30px" class="mr-1" src="/mundana-theme-jekyll/https://images.unsplash.com/photo-1528784351875-d797d86873a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">  Alternatives of Google play store</a>
+            </div>
+          
+          
+        </div>
+    </div>
+</div-->
+
+    </main>
+
+
+    <!-- Scripts: popper, bootstrap, theme, lunr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <script src="/mundana-theme-jekyll/assets/js/theme.js"></script>
+    
+
+
+    <!-- Footer -->
+    <footer class="bg-white border-top p-3 text-muted small">
+        <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div>
+                <span class="navbar-brand mr-2 mb-0 text-dark"><strong>TheFlair</strong></span>
+                <span>Copyright © <script>document.write(new Date().getFullYear())</script>.</span>
+
+                <!--  Github Repo Star Btn>
+                <a class="text-dark ml-1" target="_blank" href="https://github.com/wowthemesnet/mundana-theme-jekyll"><i class="fab fa-github"></i> Fork on Github</a-->
+
+            </div>
+            <div>
+                Made with <a target="_blank" class="text-dark font-weight-bold" href="https://jekyllrb.com/"> Jekyll </a> and proudly hosted on <span class="font-weight-bold">Github</span>.
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    
+
+</body>
+
+</html>
