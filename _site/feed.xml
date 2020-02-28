@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/mundana-theme-jekyll/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/mundana-theme-jekyll/" rel="alternate" type="text/html" /><updated>2020-02-25T15:18:45+05:30</updated><id>http://localhost:4000/mundana-theme-jekyll/feed.xml</id><title type="html">The Flair</title><subtitle>Here at The Flair we inspire and endeavor to share everything about technology like Softwares, Coding, etc., and provide our best about HOW TO tutorials and BEST OF every category in accordence to our knowledge.</subtitle><entry><title type="html">Android 11 Developer Preview 1</title><link href="http://localhost:4000/mundana-theme-jekyll/android-11-developer-preview-1/" rel="alternate" type="text/html" title="Android 11 Developer Preview 1" /><published>2020-02-20T00:00:00+05:30</published><updated>2020-02-20T00:00:00+05:30</updated><id>http://localhost:4000/mundana-theme-jekyll/android-11-developer-preview-1</id><content type="html" xml:base="http://localhost:4000/mundana-theme-jekyll/android-11-developer-preview-1/"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Creating a Simple python TelegramBot using Flask and deploying it in heroku.</title><link href="http://localhost:4000/mundana-theme-jekyll/Simple-python-telegram-bot/" rel="alternate" type="text/html" title="Creating a Simple python TelegramBot using Flask and deploying it in heroku." /><published>2020-02-18T00:00:00+05:30</published><updated>2020-02-18T00:00:00+05:30</updated><id>http://localhost:4000/mundana-theme-jekyll/Simple-python-telegram-bot</id><content type="html" xml:base="http://localhost:4000/mundana-theme-jekyll/Simple-python-telegram-bot/">Writing code for python telegram bot is easy. We add some extra things to integrate with telegram. Follow me you can build a bot easily.. 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-28T22:28:15+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Flair</title><subtitle>Here at The Flair we inspire and endeavor to share everything about technology like Softwares, Coding, etc., and provide our best about HOW TO tutorials and BEST OF every category in accordence to our knowledge.</subtitle><entry><title type="html">7 Cool New Android 11 Features</title><link href="http://localhost:4000/android-11-developer-preview-1/" rel="alternate" type="text/html" title="7 Cool New Android 11 Features" /><published>2020-02-20T00:00:00+05:30</published><updated>2020-02-20T00:00:00+05:30</updated><id>http://localhost:4000/android-11-developer-preview-1</id><content type="html" xml:base="http://localhost:4000/android-11-developer-preview-1/">Android has led the way towards the future of mobile, with new technologies like 5G to foldable displays to machine learning built into the core.
+
+Google released the first developer preview for Android 11 and it's a very earl stage and it comes with a fair features and changes.
+
+Let's get started with 7 cool features on Android 11..
+
+### 1. Chat Bubbles
+
+Chat bubbles first appeared back with Android Q beta versions, but it was not released with the stable version. But now it was released with the Android R's first developer beta.
+Chat bubbles are similar to Facebook Messenger’s Chat Heads feature. It shows a bubble when you get a new message.
+
+&lt;img src=&quot;{{ site.baseurl }}/assets/images/android/chat-bubbles-screenshot.png&quot; alt=&quot;Chat Bubble&quot; style=&quot;width:350px;&quot;/&gt; 
+
+Generally, chat bubbles can be used by any messaging apps, but as of now only Google Messages and Gmail apps are using it. You can open a chat bubble for a conversation by simply long-pressing on a message notification and tapping on ‘Show in chat bubble’. 
+
+### 2. Insert images into notification replies
+
+With this you can copy/paste, you can now insert assets directly into notification inline replies to enable richer communication as well as in the app itself. You’ll see image copy support in Chrome and image paste support via Gboard clipboard.
+
+### 3. Improved Permissions
+
+With Android 11, Google has made location permissions even more strict.
+In Android 11, whenever an app requests a permission related to location, microphone, or camera, the user-facing permissions dialog contains an option called Only this time, as shown in Figure. If you selects this option in the dialog, you have granted the app a temporary one-time permission.
+
+&lt;img src=&quot;{{ site.baseurl }}/assets/images/android/one-time-permission.png&quot; alt=&quot;One time Permission&quot; style=&quot;width:350px;&quot;/&gt; 
+
+### 4. Native Screen Recorder
+
+Now you can access the built-in screen recorder functionality from the Quick Settings panel. Tapping on this starts a 3 second timer before the screen starts being recorded. There’s also a handy notification to stop, pause, or cancel the screen record.
+
+&lt;img src=&quot;{{ site.baseurl }}/assets/images/android/android-11-native-screen-recorder-on.jpg&quot; alt=&quot;Screen recorder&quot; style=&quot;width:350px; border:1px solid black;&quot;/&gt;
+&lt;img src=&quot;{{ site.baseurl }}/assets/images/android/android-11-native-screen-recorder-start.jpg&quot; alt=&quot;Screen recorder&quot; style=&quot;width:350px; border:1px solid black; border:1px solid black;&quot;/&gt;
+
+### 5. Improved Do Not Disturb
+
+Android 11 also brings improvements to Do Not Disturb — mostly in that it gives better support for managing DND exceptions. You can set do not disturb exceptions for particular callers, specific apps, or just allow alarms and reminders to ring regardless of the DND status on your phone.
+
+### 6. Scheduled Dark Mode
+
+In android 10 Dark mode has been introuduced, system-wide. Now, it has some improvements like Scheduling it like
+
++ You can turn it on at sunset and can turn at sun rise.
++ You can also turn it on or of at a specific time. 
+
+&lt;img src=&quot;{{ site.baseurl }}/assets/images/android/android-11-scheduled-dark-mode.jpg&quot; alt=&quot;Dark Mode Scheduling&quot; style=&quot;width:350px; border:1px solid black;&quot;/&gt;
+
+### 7. Pin Apps in the Share Menu
+
+You can now pin your apps, that you share the most content with. Now these cannot bu replaced by just random apps that are installed in your device.
+
+
+#### Other Changes and Features
+
++ **Conversations** : Dedicated conversations section in the notification shade - users can instantly find their ongoing conversations with people in their favorite apps.</content><author><name>puneeth</name></author><category term="Google" /><category term="Android" /><summary type="html">Android has led the way towards the future of mobile, with new technologies like 5G to foldable displays to machine learning built into the core.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/android11.png" /></entry><entry><title type="html">Creating a Simple python TelegramBot using Flask and deploying it in heroku.</title><link href="http://localhost:4000/Simple-python-telegram-bot/" rel="alternate" type="text/html" title="Creating a Simple python TelegramBot using Flask and deploying it in heroku." /><published>2020-02-18T00:00:00+05:30</published><updated>2020-02-18T00:00:00+05:30</updated><id>http://localhost:4000/Simple-python-telegram-bot</id><content type="html" xml:base="http://localhost:4000/Simple-python-telegram-bot/">Writing code for python telegram bot is easy. We add some extra things to integrate with telegram. Follow me you can build a bot easily.. 
 
 ## Requirements for PythonTelegramBot :
 Firstly, get your bot a token and a username.
@@ -164,7 +217,7 @@ Now, go to the Deploy section and now connect to github, then after type your re
 Every thing is done. You are set to go
 Now press come down and press deploy branch.
 After successfull deployment you can use your bot.
-**You can get your app name from settings section in heroku.**</content><author><name>puneeth</name></author><category term="python" /><category term="bot" /><category term="Telegram" /><category term="Flask" /><category term="Heroku" /><summary type="html">Writing code for python telegram bot is easy. We add some extra things to integrate with telegram. Follow me you can build a bot easily..</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/mundana-theme-jekyll/assets/images/pytelebot/pythonbot-display.png" /></entry><entry><title type="html">Alternatives of Google play store</title><link href="http://localhost:4000/mundana-theme-jekyll/alternatives-of-google-play-store/" rel="alternate" type="text/html" title="Alternatives of Google play store" /><published>2019-10-19T00:00:00+05:30</published><updated>2019-10-19T00:00:00+05:30</updated><id>http://localhost:4000/mundana-theme-jekyll/alternatives-of-google-play-store</id><content type="html" xml:base="http://localhost:4000/mundana-theme-jekyll/alternatives-of-google-play-store/">Google Play Store is a great resource of apps, games, books, movies and many more in the Android ecosystem. Although it serves the need of most Android users, there are few segment of people who are either interested to try new app stores or their needs are not met by the play store. This is why we have introduced the
+**You can get your app name from settings section in heroku.**</content><author><name>puneeth</name></author><category term="python" /><category term="bot" /><category term="Telegram" /><category term="Flask" /><category term="Heroku" /><summary type="html">Writing code for python telegram bot is easy. We add some extra things to integrate with telegram. Follow me you can build a bot easily..</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/pytelebot/pythonbot-display.png" /></entry><entry><title type="html">Alternatives of Google play store</title><link href="http://localhost:4000/alternatives-of-google-play-store/" rel="alternate" type="text/html" title="Alternatives of Google play store" /><published>2019-10-19T00:00:00+05:30</published><updated>2019-10-19T00:00:00+05:30</updated><id>http://localhost:4000/alternatives-of-google-play-store</id><content type="html" xml:base="http://localhost:4000/alternatives-of-google-play-store/">Google Play Store is a great resource of apps, games, books, movies and many more in the Android ecosystem. Although it serves the need of most Android users, there are few segment of people who are either interested to try new app stores or their needs are not met by the play store. This is why we have introduced the
 **Alternatives of Google Play Store**.
 
 We have divided this segment into three parts,
@@ -255,4 +308,4 @@ The SlideME Application Manager (SAM) app provides access to a curated list of t
 &lt;img src=&quot;{{ site.baseurl }}/assets/images/alternatives/google-play-store/slideme.jpg&quot; alt=&quot;getjar&quot; style=&quot;width:400px; height:200px&quot;/&gt; 
 
 &lt;a href=&quot;http://slideme.org/application/slideme-marketplace&quot; target=&quot;_blank&quot;&gt;&lt;button style=&quot;cursor: pointer; color: whitesmoke; background-color: black; display: inline-block;text-decoration: none; border: none; max-width: 100%; font-size:20px&quot;&gt;Download Slide Me
-&lt;/button&gt;&lt;/a&gt;</content><author><name>nikhil</name></author><category term="summer" /><summary type="html">Google Play Store is a great resource of apps, games, books, movies and many more in the Android ecosystem. Although it serves the need of most Android users, there are few segment of people who are either interested to try new app stores or their needs are not met by the play store. This is why we have introduced the Alternatives of Google Play Store.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/mundana-theme-jekyll/assets/images/alternatives/google-play-store/7-alternatives.png" /></entry></feed>
+&lt;/button&gt;&lt;/a&gt;</content><author><name>nikhil</name></author><category term="Google" /><category term="Playtore" /><summary type="html">Google Play Store is a great resource of apps, games, books, movies and many more in the Android ecosystem. Although it serves the need of most Android users, there are few segment of people who are either interested to try new app stores or their needs are not met by the play store. This is why we have introduced the Alternatives of Google Play Store.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/alternatives/google-play-store/7-alternatives.png" /></entry></feed>
