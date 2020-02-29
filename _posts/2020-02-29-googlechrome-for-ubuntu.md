@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ubuntu 19 features"
+title:  "Install Google Chrome in Ubuntu/Linux"
 author: puneeth
 categories: [ Linux, browser ]
 image: assets/images/linux/ubuntu-logo.gif
