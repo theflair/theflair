@@ -2,7 +2,7 @@
 layout: post
 title:  "Ubuntu 19 features"
 author: puneeth
-categories: [  ]
+categories: [ Linux, browser ]
 image: assets/images/linux/ubuntu-logo.gif
 tags: [Linux, PC, Operating system, Chrome]
 ---
