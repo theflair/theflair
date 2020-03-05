@@ -2,9 +2,9 @@
 layout: post
 title:  "How to Rank on First Page of Google"
 author: nikhil
-categories: [  ]
-image: assets/images/alternatives/google/how-to-rank-on-first-page-of-google.png
-tags: [summer]
+categories: [google, search]
+image: assets/images/google/how-to-rank-on-first-page-of-google.png
+tags: [seo]
 ---
 As we all know, the biggest challenge in internet marketing is getting traffic to your website. However difficult it may be, it is a must if you want to be successful. You could pay for Google AdWords, and pray that your campaign doesn’t get slapped by Google, or you could spend a few extra minutes every day, and get a better listing with more traffic for free.
 
