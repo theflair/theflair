@@ -3,7 +3,11 @@ ruby RUBY_VERSION
 
 gem 'http_parser.rb'
 gem "github-pages", "~> VERSION", group: :jekyll_plugins
+<<<<<<< HEAD
 gem "jekyll", "~> 3.8.5"
+=======
+#gem "jekyll", "~> 3.8.5"
+>>>>>>> 25ff1f983d5693e5ba59c2386a3666caeed87220
 #gem "jekyll"
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
