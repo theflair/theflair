@@ -2,8 +2,8 @@ source "https://rubygems.org"
 ruby RUBY_VERSION
 
 gem 'http_parser.rb'
-#gem "github-pages", "~> VERSION", group: :jekyll_plugins
-#gem "jekyll", "~> 3.8.5"
+gem "github-pages", "~> VERSION", group: :jekyll_plugins
+gem "jekyll", "~> 3.8.5"
 #gem "jekyll"
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
