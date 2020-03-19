@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-14T14:44:46+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Flair</title><subtitle>Here at The Flair we inspire and endeavor to share everything about technology like Softwares, Coding, etc., and provide our best about HOW TO tutorials and BEST OF every category in accordence to our knowledge.</subtitle><entry><title type="html">How to install Flutter in linux and Fix general problems</title><link href="http://localhost:4000/how-to-install-flutter-in-linux/" rel="alternate" type="text/html" title="How to install Flutter in linux and Fix general problems" /><published>2020-03-09T00:00:00+05:30</published><updated>2020-03-09T00:00:00+05:30</updated><id>http://localhost:4000/how-to-install-flutter-in-linux</id><content type="html" xml:base="http://localhost:4000/how-to-install-flutter-in-linux/">&lt;h2 id=&quot;get-the-flutter-sdk&quot;&gt;Get the Flutter SDK&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-19T14:40:03+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Flair</title><subtitle>Here at The Flair we inspire and endeavor to share everything about technology like Softwares, Coding, etc., and provide our best about HOW TO tutorials and BEST OF every category in accordence to our knowledge.</subtitle><entry><title type="html">New iPad Pro 2020</title><link href="http://localhost:4000/new-ipad-pro-2020/" rel="alternate" type="text/html" title="New iPad Pro 2020" /><published>2020-03-19T00:00:00+05:30</published><updated>2020-03-19T00:00:00+05:30</updated><id>http://localhost:4000/new-ipad-pro-2020</id><content type="html" xml:base="http://localhost:4000/new-ipad-pro-2020/">&lt;h1 id=&quot;apple-announces-the-new-ipad-pro&quot;&gt;Apple announces the new iPad Pro:&lt;/h1&gt;
+
+&lt;p&gt;After a lot of rumors apple finally announced the latest iPad Pro
+the 11 inch iPad Pro starting at $799 and 12.9 inch one starting at $999.&lt;/p&gt;
+
+&lt;p&gt;It has quite a lot going for it lets talk about it one by one, starting from&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The design its the same one as the previous gen iPad Pro and 
+you will not be able to identify the previous from the latest one by just seeing the 
+front which is covered with bezelless screen with a screen to body ratio of just below 83%.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/apple/2020-ipad-design.jpg&quot; alt=&quot;2020 iPad Pro Design&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Talking about the screen its the same old IPS LCD panel, with 120hz refresh rate which is found in the previous generation of iPad Pro. We would like to have seen an Oled panel 
+with the same 120hz refresh rate, but thats kind a nitpicking.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/apple/2020-ipad-display.png&quot; alt=&quot;2020 iPad Pro Panel&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Good froward taught about the back side the the iPad Pro has got 2 new sensors, 
+an ultra wide sensor of 12MP and Lidar sensor to aid with depth sensing and ARKIT stuff
+attached in the same fashion like the iPhone 11.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/apple/2020-ipad-camera.jpg&quot; alt=&quot;2020 iPad Pro Camera&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Talking about the Processing power,&lt;br /&gt;
+the iPad Pro is powered by A12Z Bionic Chipset which according to apple is more powerful than windows PC. Going by the previous gen iPad Pro the claims might end up becoming true..&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/apple/2020-ipad-processor.png&quot; alt=&quot;2020 iPad Pro ChipSet&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt; : Is the new iPad Pro worth paying attention to ? The simple answer would be Yes,
+The iPad Pro is trying to be the everything machine be it a tablet or an laptop. It already 
+was a great tablet but talking about laptop apple is trying its best thats evident by the fact that it now Provides Proper cursor support(mouse) for the iPad Pro and it has a smart keyboard which has a trackpad below the keyboard now its all upto the iPad OS which decides whether the iPad Pro can really be a computer for all intensive purposes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/apple/2020-ipad-keyboard-magic.jpg&quot; alt=&quot;2020 iPad Pro Magic Keyboard&quot; /&gt;&lt;/p&gt;</content><author><name>mohit</name></author><category term="apple" /><category term="ipadpro" /><category term="tabletpc" /><category term="magic keyboard" /><summary type="html">Apple announces the new iPad Pro:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/apple/2020-ipad.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/apple/2020-ipad.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to install Flutter in linux and Fix general problems</title><link href="http://localhost:4000/how-to-install-flutter-in-linux/" rel="alternate" type="text/html" title="How to install Flutter in linux and Fix general problems" /><published>2020-03-09T00:00:00+05:30</published><updated>2020-03-09T00:00:00+05:30</updated><id>http://localhost:4000/how-to-install-flutter-in-linux</id><content type="html" xml:base="http://localhost:4000/how-to-install-flutter-in-linux/">&lt;h2 id=&quot;get-the-flutter-sdk&quot;&gt;Get the Flutter SDK&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; First clone the SDK from&lt;/p&gt;
 &lt;div class=&quot;highlight highlighter-rouge&quot;&gt;
