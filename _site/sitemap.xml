@@ -41,10 +41,17 @@
 <lastmod>2020-03-19T00:00:00+05:30</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/Realme-NARZO-new-series/</loc>
+<lastmod>2020-03-20T00:00:00+05:30</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/404/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/about.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/author-mohit.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/author-nikhil.html</loc>
@@ -72,5 +79,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/tags.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page2/</loc>
 </url>
 </urlset>
