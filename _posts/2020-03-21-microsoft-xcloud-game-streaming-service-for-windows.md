@@ -4,11 +4,11 @@ title:  "A first look at Microsoft’s xCloud game streaming service for Windows
 author: nikhil
 categories: [ Microsoft, Gaming ]
 image: assets/images/microsoft/xcloud.jpg
-tags: [corona virus, google, outbreak]
+tags: [microsoft, xcloud, windows, gaming]
 ---
 Microsoft has started testing its Project xCloud game streaming service for Windows 10 PCs this week. The software giant is making the preview version, which lets you stream Xbox games to a PC, available to all Microsoft employees. The Verge has been able to obtain exclusive screenshots of how xCloud will work on PCs.
 
-Microsoft has developed an Xbox Game Streaming app for Windows 10 that will be available in the Windows Store. Much like the Android or iOS versions, the app requires a Bluetooth Xbox One controller, a Microsoft account, and a good internet connection. The PC app will also support streaming games from an Xbox One console locally or remotely, instead of using Microsoft’s xCloud server blades.
+Microsoft has developed an Xbox Game Streaming app for Windows 10 that will be available in the Windows Store. Much like the Android or iOS versions, the app requires a Bluetooth Xbox One controller, a Microsoft account, and a good internet connection. The PC app will also support streaming games from an Xbox One console locally or remotely, instead of using Microsoft’s xCloud server blades.<br>
 <img src="{{ site.baseurl }}/assets/images/microsoft/xcloudpcwindows10_1.jpg" style="width: 300px; display: inline" />
 <img src="{{ site.baseurl }}/assets/images/microsoft/xcloudpcwindows10_2.jpg" style="width: 300px; display: inline" />
 <img src="{{ site.baseurl }}/assets/images/microsoft/xcloudpcwindows10_3.jpg" style="width: 300px; display: inline" />
@@ -22,7 +22,7 @@ The experience is very similar to what is available on Android and iOS, even dow
 
 Microsoft also recently upgraded its xCloud server blades to include eight Xbox One S consoles in a single server instance. That’s up from the four the company was previously testing.
 
-<img src="{{ site.baseurl }}/assets/images/microsoft/xcloudblade.jpg" alt="Microsoft's xCloud Server" style="width:200px;"/>
+<img src="{{ site.baseurl }}/assets/images/microsoft/xcloudblade.jpg" title="Microsoft's xCloud Server" alt="Microsoft's xCloud Server";"/>
 
 Microsoft is now working to eventually transition these xCloud servers to the Xbox Series X processor. This next-gen processor is far more powerful and capable of running four Xbox One S game sessions simultaneously on a single chip. It also includes a new built-in video encoder that is up to six times faster than the current external encoder that Microsoft uses on existing xCloud servers.
 
