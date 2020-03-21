@@ -9,8 +9,12 @@ tags: [corona virus, google, outbreak]
 Microsoft has started testing its Project xCloud game streaming service for Windows 10 PCs this week. The software giant is making the preview version, which lets you stream Xbox games to a PC, available to all Microsoft employees. The Verge has been able to obtain exclusive screenshots of how xCloud will work on PCs.
 
 Microsoft has developed an Xbox Game Streaming app for Windows 10 that will be available in the Windows Store. Much like the Android or iOS versions, the app requires a Bluetooth Xbox One controller, a Microsoft account, and a good internet connection. The PC app will also support streaming games from an Xbox One console locally or remotely, instead of using Microsoft’s xCloud server blades.
-<img src=“{{ site.baseurl }}/assets/images/microsoft/xcloudpcwindows10_1.jpg”
-srcset=“{{ site.baseurl }}/assets/images/microsoft/xcloudpcwindows10_1.jpg 100w, {{ site.baseurl }}/assets/images/microsoft/xcloudpcwindows10_2.jpg 200w, {{ site.baseurl }}/assets/images/microsoft/xcloudpcwindows10_3.jpg 300w, {{ site.baseurl }}/assets/images/microsoft/xcloudpcwindows10_4.jpg 400w, {{ site.baseurl }}/assets/images/microsoft/xcloudpcwindows10_5.jpg 500w, {{ site.baseurl }}/assets/images/microsoft/xcloudpcwindows10_6.jpg 600w” sizes="100vw" alt="image alt text">
+<img src="{{ site.baseurl }}/assets/images/microsoft/xcloudpcwindows10_1.jpg" style="width: 300px; display: inline" />
+<img src="{{ site.baseurl }}/assets/images/microsoft/xcloudpcwindows10_2.jpg" style="width: 300px; display: inline" />
+<img src="{{ site.baseurl }}/assets/images/microsoft/xcloudpcwindows10_3.jpg" style="width: 300px; display: inline" />
+<img src="{{ site.baseurl }}/assets/images/microsoft/xcloudpcwindows10_4.jpg" style="width: 300px; display: inline" />
+<img src="{{ site.baseurl }}/assets/images/microsoft/xcloudpcwindows10_5.jpg" style="width: 300px; display: inline" />
+<img src="{{ site.baseurl }}/assets/images/microsoft/xcloudpcwindows10_6.jpg" style="width: 300px" />
 
 There are a variety of games available to Microsoft employees to test, but the app is currently limited to 720p streams for now. “This internal preview is running at 720p resolution with 1080p just around the corner,” reveals an internal Microsoft support note.
 
