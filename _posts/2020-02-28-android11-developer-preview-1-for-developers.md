@@ -2,9 +2,9 @@
 layout: post
 title:  "Some new Android 11 Features for developers"
 author: puneeth
-categories: [ Android ]
+categories: [ android ]
 image: assets/images/android11.png
-tags: [Google, Android]
+tags: [google, android]
 ---
 
 Android has led the way towards the future of mobile, with new technologies like 5G to foldable displays to machine learning built into the core. 

@@ -2,7 +2,7 @@
 layout: post
 title:  "A first look at Microsoft’s xCloud game streaming service for Windows PCs"
 author: nikhil
-categories: [ Microsoft, Gaming ]
+categories: [ microsoft, gaming ]
 image: assets/images/microsoft/xcloud.jpg
 tags: [microsoft, xcloud, windows, gaming]
 ---

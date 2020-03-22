@@ -2,9 +2,9 @@
 layout: post
 title:  "Google’s coronavirus website finally launches alongside enhanced search results"
 author: nikhil
-categories: [ Google, Carona Virus ]
+categories: [ google, general ]
 image: assets/images/google/COVID_19_Information___Resources___Google.png
-tags: [corona virus, google, outbreak]
+tags: [corona virus, google, outbreak, general]
 ---
 One week ago, President Donald Trump held a press conference wherein he claimed Google would be building a screening website for the coronavirus that would direct people to testing sites. As we learned in the following days, that wasn’t true. Google’s sister company Verily did launch such a site, but only for the Bay Area and reportedly it only offered tests to a very small number of people. Google, however, did say it would launch some sort of website and after a small delay, it’s here.
 

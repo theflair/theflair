@@ -2,9 +2,9 @@
 layout: post
 title:  "Alternatives of Google play store"
 author: nikhil
-categories: [ Playstore ]
+categories: [ playstore ]
 image: assets/images/alternatives/google-play-store/7-alternatives.png
-tags: [Google, Playtore]
+tags: [google, playstore]
 ---
 
 Google Play Store is a great resource of apps, games, books, movies and many more in the Android ecosystem. Although it serves the need of most Android users, there are few segment of people who are either interested to try new app stores or their needs are not met by the play store. This is why we have introduced the

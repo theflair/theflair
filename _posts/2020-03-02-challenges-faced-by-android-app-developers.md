@@ -2,9 +2,9 @@
 layout: post
 title:  "Challenges Faced By Android App Developers"
 author: nikhil
-categories: [ Android, Google ]
+categories: [ android, google ]
 image: assets/images/android/challenges-android-developers.png
-tags: [summer]
+tags: [google]
 ---
 
 While developing mobile apps, businesses target Android due to its massive worldwide mobile operating system market share. Alphabet has made Android available as an open source mobile platform. Also, it updates the mobile operating system at regular intervals with new features and enhancements. But the penetration rate of individual versions of the mobile operating system differs.

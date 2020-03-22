@@ -2,7 +2,7 @@
 layout: post
 title:  "Realme's NARZO"
 author: mohit
-categories: [ android phone, ]
+categories: [ android, phone, ]
 image: assets/images/realme/2020-03-narzo.jpeg
 tags: [realme, narzo, android phone,]
 ---

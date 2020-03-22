@@ -2,9 +2,9 @@
 layout: post
 title:  "7 Cool New Android 11 Features"
 author: puneeth
-categories: [ Android ]
+categories: [ android ]
 image: assets/images/android11.png
-tags: [Google, Android]
+tags: [google, android]
 ---
 
 

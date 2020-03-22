@@ -70,6 +70,20 @@
     </div>
     </nav>
 
+    <nav id="OwnMenu" class="OwnMenu topnav navbar navbar-expand-lg navbar-light bg-dark sticky-top" style="top: 81px;">
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            {% include menu-clear.html %}
+          </ul>
+        </div>
+    </nav> 
+
     <!-- Search Results -->
     <div id="lunrsearchresults">
         <ul class="mb-0"></ul>

@@ -308,9 +308,44 @@
  }
 /*---------------------------Hightlighting code ends-----------------*/
 
+/*----------Search Box-----------------*/
+.bd-search .form-control {
+
+  font-size: .85rem;
+  color: #999;
+  border-radius: 30px;
+  height: 35px;
+  border: 1px solid #eee;
+
+}
+/*-------------end search box------------*/
+.card a:hover {
+
+  text-decoration: none;
+  color: #000080;
+
+}
+
 .navbar .dropdown-toggle, .navbar .dropdown-menu a {
   cursor: pointer;
   text-decoration: none;
+
+}
+
+ol.list-featured li::before {
+
+  content: "0" counter(my-awesome-counter);
+  font-weight: bold;
+  font-size: 2rem;
+  margin-right: 0.5rem;
+  font-family: Arial;
+  line-height: 1;
+  opacity: .1;
+}
+
+ol.list-featured {
+
+  list-style: none;
 
 }
 
@@ -396,6 +431,7 @@ color:rgba(0,0,0,0.9);
   *::before,
   *::after {
     box-sizing: border-box;
+    
   }
   
   html {
@@ -558,7 +594,7 @@ color:rgba(0,0,0,0.9);
   }
   
   a:hover {
-    color: #0056b3;
+    color: #000080;
     text-decoration: underline;
   }
   
@@ -4754,7 +4790,10 @@ pre, code, kbd, samp {
     justify-content: space-between;
     padding: 0.5rem 1rem;
   }
-  
+  .OwnMenu {
+    transition: top 0.2s ease-in-out;
+    padding: 0.1rem 0.5rem;
+  }
   .navbar .container,
   .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl {
     display: -ms-flexbox;
@@ -5078,6 +5117,13 @@ pre, code, kbd, samp {
   .navbar-light .navbar-nav .nav-link.show,
   .navbar-light .navbar-nav .nav-link.active {
     color: rgba(0, 0, 0, 0.9);
+  }
+  .OwnMenu .navbar-nav .show > .nav-link{
+    color: lightslategrey;
+  }
+  .OwnMenu .navbar-nav .nav-link{
+    font-size: 1.3rem;
+    color: darkgrey;
   }
   
   .navbar-light .navbar-toggler {
@@ -8422,7 +8468,12 @@ pre, code, kbd, samp {
       z-index: 1020;
     }
   }
-  
+  .own-sticky {
+    position: fixed;
+    position: sticky;
+    top: 90px;
+    z-index: 1030;
+  }
   .sr-only {
     position: absolute;
     width: 1px;
@@ -10575,11 +10626,13 @@ pre, code, kbd, samp {
     color: #cbd3da !important;
   }
   
+  a.text-dark:hover {
+    color: #000080 !important;
+  }
   .text-dark {
     color: #343a40 !important;
   }
-  
-  a.text-dark:hover, a.text-dark:focus {
+  a.text-dark:focus {
     color: #121416 !important;
   }
   

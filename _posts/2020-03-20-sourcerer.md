@@ -2,7 +2,7 @@
 layout: post
 title:  "Sourcerer a visual profile"
 author: puneeth
-categories: [ profile, github ]
+categories: [ git, github ]
 image: assets/images/git/sourcerer/sourcerer.png
 tags: [ sourcerer , github, visual profile]
 ---

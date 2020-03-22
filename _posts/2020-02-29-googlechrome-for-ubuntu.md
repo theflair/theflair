@@ -2,9 +2,9 @@
 layout: post
 title:  "Install Google Chrome in Ubuntu/Linux"
 author: puneeth
-categories: [ Linux, browser ]
+categories: [ linux, browser, google ]
 image: assets/images/linux/ubuntu-logo.gif
-tags: [Linux, PC, Operating system, Chrome]
+tags: [linux, PC, Operating system, chrome, google]
 ---
 
 Google chrome is one of the most used popular browsers.
