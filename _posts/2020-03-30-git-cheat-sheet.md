@@ -26,8 +26,10 @@ For Linux and Solaris platforms, the latest release is available on the official
 
 ## SETUP  
 Configuring user information used across all local repositories.  
+<span style="background-color:grey">
 **git config --global user.name “[firstname lastname]”**  
 set a name that is identifiable for credit when review version history  
+</span>
 **git config --global user.email “[valid-email]”**  
 set an email address that will be associated with each history marker  
 **git config --global color.ui auto**  
@@ -131,4 +133,4 @@ write working from top of stash stack
 **git stash drop**  
 discard the changes from top of stash stack  
 
-Download the pdf version of GitHub Cheat Sheet provided by GitHub Education <a href="https://education.github.com/git-cheat-sheet-education.pdf" target="_blank" title="GitHub Cheat Sheet pdf">here</a>
+Download the pdf version of GitHub Cheat Sheet provided by GitHub Education <a href="https://education.github.com/git-cheat-sheet-education.pdf" target="_blank" title="GitHub Cheat Sheet pdf">here</a>.
