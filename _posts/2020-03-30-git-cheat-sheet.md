@@ -61,33 +61,33 @@ Isolating work in branches, changing context, and integrating changes.
 list your branches. a * will appear next to the currently active branch  
 **git branch [branch-name]** &#8212;
 create a new branch at the current commit  
-**git checkout**  
+**git checkout** &#8212;
 switch to another branch and check it out into your working directory  
-**git merge [branch]**  
+**git merge [branch]** &#8212;
 merge the specified branch’s history into the current one  
-**git log**  
+**git log** &#8212;
 show all commits in the current branch’s history  
 
 ## INSPECT & COMPARE  
 Examining logs, diffs and object information  
-**git log**  
+**git log** &#8212;
 show the commit history for the currently active branch  
-**git log branchB..branchA**  
+**git log branchB..branchA** &#8212;
 show the commits on branchA that are not on branchB  
-**git log --follow [file]**  
+**git log --follow [file]** &#8212;
 show the commits that changed file, even across renames  
-**git diff branchB...branchA**  
+**git diff branchB...branchA** &#8212;
 show the diff of what is in branchA that is not in branchB  
-**git show [SHA]**  
+**git show [SHA]** &#8212;
 show any object in Git in human-readable format  
 
 ## TRACKING PATH CHANGES  
 Versioning file removes and path changes.  
-**git rm [file]**  
+**git rm [file]** &#8212;
 delete the file from project and stage the removal for commit  
-**git mv [existing-path] [new-path]**  
+**git mv [existing-path] [new-path]** &#8212;
 change an existing file path and stage the move  
-**git log --stat -M**  
+**git log --stat -M** &#8212;
 show all commit logs with indication of any paths that moved  
 
 ## IGNORING PATTERNS  
@@ -97,38 +97,38 @@ Preventing unintentional staging or commiting of files
 pattern*/</b>  
 
 Save a file with desired paterns as .gitignore with either direct string matches or wildcard globs.  
-**git config --global core.excludesfile [file]**  
+**git config --global core.excludesfile [file]** &#8212;
 system wide ignore patern for all local repositories  
 
 ## SHARE & UPDATE  
 Retrieving updates from another repository and updating local repos  
-**git remote add [alias] [url]**  
+**git remote add [alias] [url]** &#8212;
 add a git URL as an alias  
-**git fetch [alias]**  
+**git fetch [alias]** &#8212;
 fetch down all the branches from that Git remote  
-**git merge [alias]/[branch]**  
+**git merge [alias]/[branch]** &#8212;
 merge a remote branch into your current branch to bring it up to date  
-**git push [alias] [branch]**  
+**git push [alias] [branch]** &#8212;
 Transmit local branch commits to the remote repository branch  
-**git pull**  
+**git pull** &#8212;
 fetch and merge any commits from the tracking remote branch  
 
 ## REWRITE HISTORY  
 Rewriting branches, updating commits and clearing history  
-**git rebase [branch]**  
+**git rebase [branch]** &#8212;
 apply any commits of current branch ahead of specified one  
-**git reset --hard [commit]**  
+**git reset --hard [commit]** &#8212;
 clear staging area, rewrite working tree from specified commit  
 
 ## TEMPORARY COMMITS   
 Temporarily store modified, tracked files in order to change branches.  
-**git stash**  
+**git stash** &#8212;
 Save modified and staged changes  
-**git stash list**  
+**git stash list** &#8212;
 list stack-order of stashed file changes  
-**git stash pop**  
+**git stash pop** &#8212;
 write working from top of stash stack  
-**git stash drop**  
+**git stash drop** &#8212;
 discard the changes from top of stash stack  
 
 Download the pdf version of GitHub Cheat Sheet provided by GitHub Education <a href="https://education.github.com/git-cheat-sheet-education.pdf" target="_blank" title="GitHub Cheat Sheet pdf">here</a>.
