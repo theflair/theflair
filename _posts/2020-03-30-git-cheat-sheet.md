@@ -32,7 +32,7 @@ set a name that is identifiable for credit when review version history
 </span>
 **git config --global user.email “[valid-email]”**-
 set an email address that will be associated with each history marker  
-**git config --global color.ui auto**  
+**git config --global color.ui auto** &#8212;
 set automatic command line coloring for Git for easy reviewing  
 
 ## SETUP & INIT   
