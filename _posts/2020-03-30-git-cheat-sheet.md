@@ -16,7 +16,7 @@ With platform specific installers for Git, GitHub also provides the ease of stay
 releases of the command line tool while providing a graphical user interface for day-to-day interaction, review, and 
 repository synchronization.
 
-#### GitHub Desktop  
+### GitHub Desktop  
   To download GitHub Desktop on to your personal devices, visit GitHub Desktop site <a href="https://desktop.github.com/"         target="_blank" title="GitHub Desktop">here</a>.
 
   For Linux and Solaris platforms, the latest release is available on the official Git web site.
