@@ -16,13 +16,8 @@ With platform specific installers for Git, GitHub also provides the ease of stay
 releases of the command line tool while providing a graphical user interface for day-to-day interaction, review, and 
 repository synchronization.
 
-### GitHub Desktop  
-  To download GitHub Desktop on to your personal devices, visit GitHub Desktop site <a href="https://desktop.github.com/"         target="_blank" title="GitHub Desktop">here</a>.
-
-  For Linux and Solaris platforms, the latest release is available on the official Git web site.
-
-  #### Git for All Platforms  
-  <a href="http://git-scm.com" target="_blank">http://git-scm.com</a>
+### Git for All Platforms  
+  <a href="https://git-scm.com/downloads" target="_blank">https://git-scm.com/downloads</a>
 
 ## SETUP  
 Configuring user information used across all local repositories.  
@@ -132,3 +127,8 @@ write working from top of stash stack
 discard the changes from top of stash stack  
 
 Download the pdf version of GitHub Cheat Sheet provided by GitHub Education <a href="https://education.github.com/git-cheat-sheet-education.pdf" target="_blank" title="GitHub Cheat Sheet pdf">here</a>.
+
+### GitHub Desktop  
+  To download GitHub Desktop on to your personal devices, visit GitHub Desktop site <a href="https://desktop.github.com/"         target="_blank" title="GitHub Desktop">here</a>.
+
+  For Linux and Solaris platforms, the latest release is available on the official Git web site.
