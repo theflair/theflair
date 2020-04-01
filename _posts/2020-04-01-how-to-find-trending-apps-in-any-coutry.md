@@ -3,7 +3,7 @@ layout: post
 title:  "How to find trending apps in any country"
 author: nikhil
 categories: [ Apps ]
-image: assets/images/apps/trending_apps.jpg
+image: assets/images/apps/trernding_apps.jpg
 tags: [internet, play store, app store, trending, app ranking]
 ---
 
