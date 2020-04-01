@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Git Cheat Sheet"
+title:  "4 steps you should take to secure your Gmail account"
 author: nikhil
 categories: [ Gmail, Google ]
 image: assets/images/google/gmail1.png
