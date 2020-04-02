@@ -15,7 +15,7 @@ In an email sent to customers, Google mentioned that the community answered over
 
 <div style="background-color:#EEEEEE">
 <i>We launched Neighbourly as a Beta app to connect you with your neighbors and make sharing local information more human and helpful. As a community, you’ve come together to celebrate local festivals, shared crucial information during floods, and answered over a million questions.</i>  
-
+<br>
 <i>But Neighbourly hasn’t grown as we had hoped. In these difficult times, we believe that we can help more people by focusing on other Google apps that are already serving millions of people everyday.</i>
 </div>
 
@@ -23,6 +23,6 @@ Google also pointed towards <a href="https://maps.google.com/localguides" target
 
 The announcement comes at an interesting time: <a href="https://about.fb.com/news/2020/03/coronavirus/#Community-Help" target="_blank">Facebook just rolled out a ‘community help’ feature</a> for people to request or offer assistance in their neighborhoods during the coronavirus crisis.
 
-The app is closing down on May 12; you’ll be able to download your Neighbourly content until October 12. Another one for the <a href-"https://killedbygoogle.com/" target="_blank">Google Graveyard</a>.
+The app is closing down on May 12; you’ll be able to download your Neighbourly content until October 12. Another one for the <a href="https://killedbygoogle.com/" target="_blank">Google Graveyard</a>.
 
 Post Credit: The Next Web
