@@ -73,6 +73,10 @@
 <lastmod>2020-04-02T00:00:00+05:30</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/apple-iphone-se/</loc>
+<lastmod>2020-04-15T00:00:00+05:30</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/one-plus-8-pro-spec/</loc>
 <lastmod>2020-04-15T00:00:00+05:30</lastmod>
 </url>
@@ -154,5 +158,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/page2/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page3/</loc>
 </url>
 </urlset>
