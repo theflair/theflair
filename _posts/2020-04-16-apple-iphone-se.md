@@ -38,7 +38,7 @@ Weight: 5.22 ounces (148 grams)
             Display Zoom
             Reachability</b></pre>
 
-**Chip: A13 Bionic chip (Third‑generation Neural Engine) **   
+**Chip: A13 Bionic chip (Third‑generation Neural Engine)**   
 
 **Splash, Water, and Dust Resistant: Rated IP67 (maximum depth of 1 meter up to 30 minutes) under IEC standard 60529**  
 
