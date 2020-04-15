@@ -11,7 +11,7 @@ tags: [iPhone, SE, Apple]
 All the wait is over. Finally,the Apple iPhone SE 2020 is ready for competition.  
 The most awaited iPhone SE has been scilently released by Apple into it's <a href="https://www.apple.com/" target="_blank">website</a>.
 
-<img src="{{ site.baseurl }}/assets/images/apple/se-img.png" title="iPhone SE 2020" />
+<img src="{{ site.baseurl }}/assets/images/apple/se-size-img.png" alt="iPhone SE 2020" title="iPhone SE 2020" />
 
 <h2>Tech Specs:</h2><br>
 **Colors:** Available in three Colors. **Black, White, Product RED**  
