@@ -11,22 +11,22 @@ tags: [iPhone, SE, Apple]
 All the wait is over. Finally,the Apple iPhone SE 2020 is ready for competition.  
 The most awaited iPhone SE has been scilently released by Apple into it's <a href="https://www.apple.com/" target="_blank">website</a>.
 
-<img src="{{ site.baseurl }}/assets/images/apple/se-img.jpg" title="iPhone SE 2020" />
+<img src="{{ site.baseurl }}/assets/images/apple/se-img.png" title="iPhone SE 2020" />
 
 <h2>Tech Specs:</h2><br>
 **Colors:** Available in three Colors. **Black, White, Product RED**  
 **Capacity: 64GB, 128GB, 256GB**  
-**Size and Weight:**
-Height: 5.45 inches (138.4 mm)
-Width: 2.65 inches (67.3 mm)
-Depth: 0.29 inch (7.3 mm)
-Weight: 5.22 ounces (148 grams)
+**Size and Weight:**  
+Height: 5.45 inches (138.4 mm)  
+Width: 2.65 inches (67.3 mm)  
+Depth: 0.29 inch (7.3 mm)  
+Weight: 5.22 ounces (148 grams)  
 <img src="{{ site.baseurl }}/assets/images/apple/se-size-weight.jpg" alt="iPhone SE Size" title="iPhone SE 2020 Size" />
 
-**Display: 4.7"**
+**Display: 4.7"**  
 <img src="{{ site.baseurl }}/assets/images/apple/se-display.jpg" alt="iPhone SE Display" title="iPhone SE 2020 Display" />
 
-<pre><b>                Retina HD display
+<pre><b>            Retina HD display
             4.7-inch (diagonal) widescreen LCD Multi‑Touch display with IPS technology
             1334-by-750-pixel resolution at 326 ppi
             1400:1 contrast ratio (typical)
@@ -38,10 +38,10 @@ Weight: 5.22 ounces (148 grams)
             Display Zoom
             Reachability</b></pre>
 
-**Chip:**   A13 Bionic chip
-            Third‑generation Neural Engine
+**Chip:     A13 Bionic chip
+            Third‑generation Neural Engine **   
 
-**Splash, Water, and Dust Resistant: Rated IP67 (maximum depth of 1 meter up to 30 minutes) under IEC standard 60529**
+**Splash, Water, and Dust Resistant: Rated IP67 (maximum depth of 1 meter up to 30 minutes) under IEC standard 60529**  
 
 <img src="{{ site.baseurl }}/assets/images/apple/se-camera.jpg" title="iPhone SE 2020 Camera Specs" />
 
