@@ -43,7 +43,7 @@ console.error('Trigger:', e.trigger);
 					</div>
 				</div>
                 {% if page.image %}
-				<div class="col-md-6 pr-0 align-self-center">
+				<div class="col-md-6 pr-0 align-self-center article-img">
 					<img class="rounded" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
 				</div>
                 {% endif %}
